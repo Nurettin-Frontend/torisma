@@ -1,0 +1,174 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-font {
+  font-family: "Baloo Paaji 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+
+}
+
+.arial-bold {
+  font-weight: 600;
+}
+
+.montserrat-medium {
+  font-weight: 500;
+}
+.montserrat-bold {
+  font-weight: 600;
+}
+.nunito-bold {
+  font-weight: 600;
+}
+.nunito-black {
+  font-weight: 500;
+}
+.nunito-sans-black {
+  font-weight: 500;
+}
+.nunito-extra-bold {
+  font-weight: 600;
+}
+.nunito-sans-bold {
+  font-weight: 600;
+}
+.nunito-sans-extra-bold {
+  font-weight: 700;
+}
+.nunito-sans-semi-bold {
+  font-weight: 600;
+}
+
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+  @media (min-width: 960px) and (max-width: 1250px) {
+    font-size: 12px;
+  }
+}
+.font-16 {
+  font-size: 16px;
+  @media (max-width: 960px) {
+    font-size: 13px;
+  }
+}
+.font-16-m {
+  font-size: 16px;
+}
+.font-17 {
+  font-size: 17px;
+  @media (max-width: 960px) {
+    font-size: 14px;
+  }
+}
+.font-18 {
+  font-size: 18px;
+  @media (max-width: 960px) {
+    font-size: 14px;
+  }
+}
+.font-20 {
+  font-size: 20px;
+  @media (max-width: 960px) {
+    font-size: 16px;
+  }
+}
+.font-22 {
+  font-size: 22px;
+  @media (max-width: 960px) {
+    font-size: 14px;
+  }
+}
+.font-24 {
+  font-size: 24px;
+  @media (max-width: 960px) {
+    font-size: 16px;
+  }
+}
+.font-25 {
+  font-size: 25px;
+  @media (max-width: 960px) {
+    font-size: 18px;
+  }
+}
+.font-26 {
+  font-size: 26px;
+  @media (max-width: 960px) {
+    font-size: 18px;
+  }
+}
+.font-30 {
+  font-size: 30px;
+  @media (max-width: 960px) {
+    font-size: 30px;
+  }
+}
+.font-32 {
+  font-size: 32px;
+  @media (max-width: 960px) {
+    font-size: 20px;
+  }
+}
+.font-36 {
+  font-size: 36px;
+  @media (max-width: 960px) {
+    font-size: 24px;
+  }
+}
+.font-42 {
+  font-size: 42px;
+  @media (max-width: 960px) {
+    font-size: 20px;
+  }
+}
+
+.font-45 {
+  font-size: 45px;
+  @media (max-width: 960px) {
+    font-size: 20px;
+  }
+}
+.font-50 {
+  font-size: 50px;
+  @media (max-width: 960px) {
+    font-size: 25px;
+  }
+}
+
+.font-60 {
+  font-size: 60px;
+  @media (max-width: 960px) {
+    font-size: 30px;
+  }
+}
+
+.font-72 {
+  font-size: 72px;
+  @media (max-width: 960px) {
+    font-size: 40px;
+  }
+}
+
+.font-300 {
+  font-weight: 300;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-700 {
+  font-weight: 700;
+}
+.font-900 {
+  font-weight: 900;
+}
+
+.line-h-27 {
+  line-height: 27px;
+}

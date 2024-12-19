@@ -1,0 +1,121 @@
+.app-rtl {
+  .hero-section {
+    position: relative;
+    background-color: #0f1114;
+    background-size: cover;
+    overflow: hidden;
+  
+  
+    &__top-left {
+      left: unset;
+      right: 0px;
+      transform: rotateY(180deg);
+
+    }
+    &__top-right {
+      right: unset;
+      left: 0px;
+      transform: rotateY(180deg);
+
+    }
+    &__bottom-left {
+      left: unset;
+      right: 0px;
+      transform: rotateY(180deg);
+
+    }
+    &__bottom-center {
+      left: unset;
+      right: 48%;
+      transform: translateX(-50%) rotateY(180deg);
+    }
+    &__bottom-right {
+      right: unset;
+      left: 0px;
+      transform: rotateY(180deg);
+
+    }
+    &__main-img {
+      right: unset;
+      transform: rotateY(180deg);
+
+    }
+    &__bg-main-img {
+      right: unset;
+      left: -100px;
+      transform: rotateY(180deg) scale(1.5);
+    }
+  
+  }  
+  .home-header__imgs__right {
+    transform: translate(-20%, -40%);
+  }
+  .home-header__imgs__left {
+    transform: translate(-118%, -40%);
+  }
+  .whatsapp-btn,
+  .go-down {
+    left: 30px !important;
+    right: unset !important;
+  }
+  .adventure_onepage {
+    .range-text {
+      text-align: center;
+    }
+    .range-sentence {
+      top: 10px;
+      transform: unset;
+      left: unset;
+    }
+  }
+  .top-img {
+    left: 0px !important;
+    right: unset !important;
+    transform: scaleX(-1);
+  }
+  .bottom-img {
+    right: 0px !important;
+    left: unset !important;
+    transform: scaleX(-1);
+  }
+  .most-popular {
+    left: 20px;
+    right: unset !important;
+  }
+  .home-contact__term {
+    right: 45px;
+    top: 15px;
+    left: unset !important;
+  }
+  .v-list-item {
+    direction: rtl !important;
+  }
+
+  @media (max-width: 960px) {
+    .home-header {
+      &__imgs {
+        &__bg {
+          transform: translate(-60%, 40%);
+        }
+        &__left {
+          transform: translate(-120%, 40%);
+        }
+        &__right {
+          transform: translate(-20%, 40%);
+        }
+      }
+    }
+  }
+}
+
+.v-locale--is-rtl,
+.v-locale--is-ltr {
+  direction: unset !important;
+}
+
+.app-ltr{
+  direction: ltr !important;
+}
+.app-rtl{
+  direction: rtl !important;
+}
